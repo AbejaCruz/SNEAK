@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sneak</title>
+    <meta name="description" content="Creative Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Questrial&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo"><img src="./img/Logo.png" alt="Sneak Logo" /> </div>
+            <div class="site-name">
+                <h1>SNEAK</h1>
+                <h2>CREATIVE PORTOFLIO</h2>
+            </div>
+        </div>
+        <div class="hamburger" id="hamburger">
+
+        </div>
+        <nav class="main" id="menu">
+            <ul>
+                <li class="active" id="all">
+                    <a href="#works">All</a>
+                </li>
+                <li id="branding">
+                    <a href="#works">Branding</a>
+                </li>
+                <li id="web">
+                    <a href="#works">Web</a>
+                </li>
+                <li id="photography">
+                    <a href="#works">Photography</a>
+                </li>
+                <li id="app">
+                    <a href="#works">App</a>
+                </li>
+                <li id="searchfield">
+                     <img src="img/Search_Icon.png" alt="Search Icon" class="search-icon" id="search-btn"/>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>EXPLORE BEYOND HORIZON</h2>
+            <p>Magna mundi referrentur quo, no rebum dignissim qui.<br />
+                Per quodsi accusata id, agam labores.</p>
+            <a href="#works" class="btn white">VIEW OUR WORK<a href="#works"></a>
+        </div>
+    </section>
+    <section class="portfolio" id="works">
+        <br>
+        <nav class="work-category">
+            <ul>
+                <li class="category active" id="all" onclick="showCategory(this.id)">
+                    All
+                </li>
+                <li class="category" id="branding" onclick="showCategory(this.id)">
+                    Branding
+                </li>
+                <li class="category" id="web" onclick="showCategory(this.id)">
+                    Web
+                </li>
+                <li class="category" id="photography" onclick="showCategory(this.id)">
+                    Photography
+                </li>
+                <li class="category" id="app" onclick="showCategory(this.id)">
+                    App
+                </li>
+            </ul>
+        </nav>
+        <ul class="works masonry-with-columns" id="masonry-with-columns">
+
+        </ul>
+        <div class="btn pink">Show Me More</div>
+    </section>
+    <footer>
+        <div class="content">
+            <div class="copy">© 2016 - <span class="pink-text">Sneak</span> All Right Reserved</div>
+            <ul class="social">
+                <li><a href="#"><img src="img/Facebook.png" alt="Facebook" /></a></li>
+                <li><a href="#"><img src="img/Twitter.png" alt="Twitter" /></a></li>
+                <li><a href="#"><img src="img/Dribble.png" alt="Dribble" /></a></li>
+                <li><a href="#"><img src="img/Google.png" alt="Google +" /></a></li>
+                <li><a href="#"><img src="img/YouTube.png" alt="You Tube" /></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./data/data.json"></script>
+    <script src="./js/script.js" async defer></script>
+</body>
+
+
+</html>
