@@ -1,5 +1,7 @@
-#Tita Media
+# Tita Media
 
 Prueba Tecnica
 
-#Url
+## Url
+
+El proyecto esta desplegado usando Github pages: https://abejacruz.github.io/SNEAK/
